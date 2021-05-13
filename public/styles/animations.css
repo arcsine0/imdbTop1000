@@ -1,0 +1,13 @@
+.slide-fade {
+    animation: slide-fade 1s ease-out forwards;
+}
+@keyframes slide-fade {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
